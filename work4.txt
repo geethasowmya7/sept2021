@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>planet</title>
+<form name="planet">
+name:<input type="text" value="planet" id="p"/>
+<input type="text" value="planet" id="p1"/>
+<input type="text" value="planet" id="p2"/>
+<input type="button" id="l1" onclick="showplanet()" onclick="alert('')" />submit1</button>
+<input type="button" id="l" onclick="showplanet()" onclick="alert('')" />submit</button>
+<input type="button" id="l2" onclick="showplanet()" onclick="alert('')" />submit2</button>
+<script>
+alert("diameter and distance of palnet");
+function showplanet(){
+alert("diameter is 1,distance is 2");
+var y=document.getElementById("p").value;
+var x=document.getElementById("l").value;
+var x=document.getElementById("l1").value;
+var x=document.getElementById("l2").value;
+}
+</script>
+</body>
+
+</html>
